@@ -1,10 +1,7 @@
-
-
 import random
 from time import sleep
 
-
-WORDS = ("APPLE", "TESTING", "NIMO", "TESLA")
+WORDS = ("APPLE", "TESTING", "GATES", "TESLA")
 word = random.choice(WORDS)
 POSITIVE_SAYING = ("Well done!", "Awesome!", "You Legend!")
 MAX_WRONG = len(word) - 1
